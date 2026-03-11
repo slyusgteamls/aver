@@ -4,6 +4,7 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/aver/",
   logLevel: 'error', // Suppress warnings, only show errors
   plugins: [
     base44({
@@ -13,7 +14,6 @@ export default defineConfig({
       hmrNotifier: true,
       navigationNotifier: true,
       analyticsTracker: true,
-      base: "/aver/",
       visualEditAgent: true
     }),
     react(),
