@@ -5,7 +5,7 @@ import { Analytics } from '@vercel/analytics/react'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
-    <Analytics />
+    <App/>
+    <Analytics/>
   </React.StrictMode>,
 )
